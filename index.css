@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #E5E7EB;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+
+.main {
+    background: #1B1924;
+    width: 80vw;
+    max-width:1000px;
+    margin: 30px auto;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#img {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+.endorsement-publish {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 80%;
+    margin: 10px auto;
+    /* margin-top: 10px; */
+
+}
+
+textarea {
+    background: #444059;
+    color: #8F8F8F;
+    border: none;
+    padding: 25px 10px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea::placeholder {
+  font-size: 14px;
+  text-align: left;
+}
+
+
+button {
+    background: #28A9F1;
+    color: #04131C;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button:hover {
+    background: white;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0px;   
+}
+
+.endorsement-messages{
+    padding: 0;
+    color: black;
+    list-style-type: none;    
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 20px auto
+}
+
+ul li {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif; 
+}
+
+ul li:hover {
+    background-color: red;
+    cursor: pointer;
+}
